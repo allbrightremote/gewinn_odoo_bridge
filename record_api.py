@@ -32,7 +32,7 @@ def read_serial(port="/dev/ttyUSB0", baudrate=9600):
         print("Serial connection closed.")
 
 
-berat = 5
+berat = 6
 
 
 
