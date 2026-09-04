@@ -6,7 +6,7 @@ import logging
 
 
 # Target URL
-url = "http://188.166.214.116:8069/gewinn"
+url = "https://trial-jk.allbrightlambda.com/gewinn"
 
 def read_serial(port="/dev/ttyUSB0", baudrate=9600):
     try:
