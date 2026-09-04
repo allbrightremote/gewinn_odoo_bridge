@@ -35,7 +35,7 @@ berat = 10
 
 
 logging.basicConfig(
-    filename="/root/error_record_api.log",   # path to log file
+    filename="/opt/error_record_api.log",   # path to log file
     level=logging.ERROR,             # only log errors and above
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -65,7 +65,7 @@ while True:
 
 # Optional query parameters
         params = {
-            "device": "gewinjk",
+            "device": "jk_oesapa_1",
             "berat": berat
         }
 
