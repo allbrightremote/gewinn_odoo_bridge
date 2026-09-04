@@ -31,7 +31,7 @@ def read_serial(port="/dev/ttyUSB0", baudrate=9600):
             ser.close()
         print("Serial connection closed.")
 
-berat = 17
+berat = 18
 
 
 logging.basicConfig(
